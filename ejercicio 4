@@ -1,0 +1,12 @@
+public class Main {
+
+	public static void main(String[] args) {
+		int edjuan=9, edalberto = (2*edjuan)/3, edana = (4*edjuan)/3, edmama=edjuan+edalberto+edana;
+		System.out.println("la edad de Juan es : "+edjuan);
+		System.out.println("la edad de Alberto es : "+edalberto);
+		System.out.println("la edad de Ana es : "+edana);
+		System.out.println("la edad de Mama es : "+edmama);
+	
+	}
+
+}
