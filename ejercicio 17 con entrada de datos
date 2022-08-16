@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double radio;
+		System.out.print("ingrese el radio del circulo: ");
+		radio = entrada.nextDouble();
+		double areac = Math.PI*(radio*radio);
+		double longc = 2*Math.PI*(radio);
+		System.out.println("el radio es: "+radio);
+		System.out.println("el area es: "+areac);
+		System.out.println("la longitud de circunferencia es: "+longc);
+
+	}
+
+}
