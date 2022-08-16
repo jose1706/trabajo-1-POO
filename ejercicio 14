@@ -1,0 +1,10 @@
+public class Main {
+
+	public static void main(String[] args) {
+		double numero = 20; 
+		System.out.println("su cuadrado es: "+(Math.pow(numero, 2)));
+		System.out.println("su cubo es: "+(Math.pow(numero, 3)));
+
+	}
+
+}
