@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double numero;
+		System.out.print("ingrese el numero: ");
+		numero = entrada.nextInt();
+		System.out.println("su cuadrado es: "+(Math.pow(numero, 2)));
+		System.out.println("su cubo es: "+(Math.pow(numero, 3)));
+
+	}
+
+}
