@@ -1,0 +1,12 @@
+public class Main {
+
+	public static void main(String[] args) {
+		double sb = (5000*48), rf = (sb*12.5)/100, sn = sb-rf;
+		System.out.println("salario por semena:");
+		System.out.println("salario bruto = "+sb);
+		System.out.println("retencion en la fuente = "+rf);
+		System.out.println("salario neto = "+sn);
+
+	}
+
+}
